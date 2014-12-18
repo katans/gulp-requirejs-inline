@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/katans/slush-alloyteam-brostylus.git"
+    "url": "https://github.com/katans/gulp-requirejs-inline.git"
   },
   "license": "ISC",
   "devDependencies": {
