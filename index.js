@@ -88,7 +88,7 @@ module.exports = function(options) {
 		var sections = content.split(endReg);
 
 		var destPath = options.dest;
-		
+		if(sections.length === 2){
 		for (var i = 0, l = sections.length; i < l; ++i){
 			var item = sections[i];
 
@@ -128,6 +128,10 @@ module.exports = function(options) {
 					});
 				});
 			}
+		}
+		}else{
+			push(createFile(mainName,content));
+			callback();
 		}
 
 
